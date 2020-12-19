@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap');
+
+:root {
+    --primary-color: #b9b678;
+    --width-break: 600px;
+}
+
+* {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+}
+
+body {
+    margin: auto;
+    display: block;
+    /* text-align: center; */
+}
+
+#navigation {
+    background-color: var(--primary-color);
+}
+
+#nav-heading {
+    text-align: center;
+    font-weight: 600;
+    font-size: 2rem;
+    padding: 1rem;
+}
+
+main {
+    margin: auto;
+    padding: 1rem;
+    max-width: var(--width-break);
+    flex: 1;
+}
+
+#txt-input {
+    width: 80%;
+    height: 10vh;
+    margin: 2rem 1rem;
+    padding: 1rem;
+    display: block;
+    border: 1px black solid;
+}
+
+#txt-output {
+    height: 10vh;
+    width: 80%;
+    margin: 1rem;
+    padding: 1rem;
+    display: block;
+    border: 1px black solid;
+}
+
+#btn-translate {
+    background-color: var(--primary-color);
+    padding: 0.5rem 1.5rem;
+    font-weight: bold;
+    font-size: 1rem;
+    border: none;
+    display: block;
+    margin: 1rem;
+}
+
+#label {
+    margin: 2rem 1rem 1rem 1rem;
+}
+
+footer {
+    background-color: var(--primary-color);
+    height: 20vh;
+    text-align: center;
+    padding: 1rem;
+
+    /* to put footer at bottom of page  */
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+#footer-heading {
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+#footer-content {
+    max-width: var(--width-break);
+    margin: auto;
+    padding-top: 1rem;
+}
+
+#footer-last-label {
+    margin: 1rem;
+    font-size: small
+}
